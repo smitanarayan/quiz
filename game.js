@@ -186,7 +186,7 @@ getNewQuestion = () => {
     const maxPossibleScore = POINTS * numQuestions;
     localStorage.setItem("score", score);
     localStorage.setItem("maxPossibleScore", maxPossibleScore);
-    window.location.href = "end.html";
+    window.location.href = "https://htmlpreview.github.io/?https://raw.githubusercontent.com/smitanarayan/quiz/master/game.html";
   }
 
   let questionIndex = questionCounter;
