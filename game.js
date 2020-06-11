@@ -186,7 +186,7 @@ getNewQuestion = () => {
     const maxPossibleScore = POINTS * numQuestions;
     localStorage.setItem("score", score);
     localStorage.setItem("maxPossibleScore", maxPossibleScore);
-    return window.location.assign("end.html");
+    return window.location.assign("/end.html");
   }
 
   let questionIndex = questionCounter;
